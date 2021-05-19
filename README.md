@@ -1,5 +1,5 @@
 # MFC-Microsoft-Foundation-Class-
-C++ MFC
+C++ Visual studio 2015 MFC
 
 Simply Diary
 
