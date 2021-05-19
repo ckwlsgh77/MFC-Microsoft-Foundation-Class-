@@ -157,11 +157,11 @@ BOOL CMainFrame::PreCreateWindow(CREATESTRUCT& cs)
 		return FALSE;
 	// TODO: CREATESTRUCT cs를 수정하여 여기에서
 	//  Window 클래스 또는 스타일을 수정합니다.
-	if (!CFrameWndEx::PreCreateWindow(cs))
-		return FALSE;
+	//if (!CFrameWndEx::PreCreateWindow(cs))
+	//	return FALSE;
 
-	cs.cx = 110;
-	cs.cy = 710;
+	//cs.cx = 110;
+	//cs.cy = 710;
 	return TRUE;
 }
 
@@ -318,10 +318,10 @@ BOOL CMainFrame::LoadFrame(UINT nIDResource, DWORD dwDefaultStyle, CWnd* pParent
 void CMainFrame::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
-	lpMMI->ptMinTrackSize.x = 1100;
-	lpMMI->ptMinTrackSize.y = 710;
-	lpMMI->ptMaxTrackSize.x = 1100;
-	lpMMI->ptMaxTrackSize.y = 710;
-	CFrameWndEx::OnGetMinMaxInfo(lpMMI);
+	//lpMMI->ptMinTrackSize.x = 1100;
+	//lpMMI->ptMinTrackSize.y = 710;
+	//lpMMI->ptMaxTrackSize.x = 1100;
+	//lpMMI->ptMaxTrackSize.y = 710;
+	//CFrameWndEx::OnGetMinMaxInfo(lpMMI);
 	CFrameWndEx::OnGetMinMaxInfo(lpMMI);
 }
